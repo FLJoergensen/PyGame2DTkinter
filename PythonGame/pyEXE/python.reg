@@ -1,0 +1,13 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python\Pythoncore]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python\Pythoncore\2.7]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python\Pythoncore\2.7\InstallPath]
+@="D:\\ProgrammingProgram\\Python2"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Python\Pythoncore\2.7\PythonPath]
+@="D:\\ProgrammingProgram\\Python2\\; D:\\ProgrammingProgram\\Python2\\Lib\\; D:\\ProgrammingProgram\\Python2\\DLLs\\"

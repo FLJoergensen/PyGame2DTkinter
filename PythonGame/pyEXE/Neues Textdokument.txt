@@ -1,0 +1,14 @@
+https://www.youtube.com/watch?v=VKQ1Ph81Gps
+http://www.zms-publishing.com/dokumentation/howto/betrieb/windows_registry/index_ger.html
+
+!32bit
+http://zahlenzerkleinerer.de/py2exe-nur-eine-datei.html
+
+
+http://stackoverflow.com/questions/112698/py2exe-generate-single-executable-file
+http://stackoverflow.com/questions/19566765/python-py2exe-compile-two-py-files-at-once-to-two-separate-exe-files
+
+
+C:\Windows\System32\regedt32.exe
+
+!In umgebungsvariablen python path einfügen und python.exe schreibgeschützt machen
