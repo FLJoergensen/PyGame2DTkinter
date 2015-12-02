@@ -264,7 +264,7 @@ def mainFrame():
         if item.startswith("GAME"):
             s=item
             s=s.replace(".py","")
-            #modul=__import__(s)
+            modul=__import__(s)
             s=s.replace("GAME","")
             TK.Button(root,text=s,command=lambda:LoadGUI(root,modul.Game)).pack()
     root.mainloop()
