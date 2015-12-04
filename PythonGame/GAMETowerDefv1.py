@@ -10,7 +10,7 @@ x=20
 y=20
 TID=0
 def Game():
-    gui1()
+    gui()
     pass
 def gui():
     global c,root
@@ -18,9 +18,18 @@ def gui():
     c,l=GUI.newPlayField(32*x,32*y,x,y,root,"black",("<Button-1>",))
     c.grid(column=0,row=0)
     menueFrame=TK.Frame(root)
-    TK.Button(menueFrame,text="T1",command=lambda:setTID(1)).pack()
-    menueFrame.grid(column=1,row=0)
-    #thread.start_new(root.mainloop,())
+    TowerFrame=TK.Frame(menueFrame)
+    TK.Button(TowerFrame,text="T1",command=lambda:setTID(1)).grid(column=0,row=0)
+    TK.Button(TowerFrame,text="T2",command=lambda:setTID(2)).grid(column=1,row=0)
+    TK.Button(TowerFrame,text="T3",command=lambda:setTID(3)).grid(column=2,row=0)
+    TK.Button(TowerFrame,text="T4",command=lambda:setTID(4)).grid(column=0,row=1)
+    TK.Button(TowerFrame,text="T5",command=lambda:setTID(5)).grid(column=1,row=1)
+    TK.Button(TowerFrame,text="T6",command=lambda:setTID(6)).grid(column=2,row=1)
+    TK.Button(TowerFrame,text="T7",command=lambda:setTID(7)).grid(column=0,row=2)
+    TK.Button(TowerFrame,text="T8",command=lambda:setTID(8)).grid(column=1,row=2)
+    TK.Button(TowerFrame,text="T9",command=lambda:setTID(9)).grid(column=2,row=2)
+    TowerFrame.pack(side=TK.TOP)
+    menueFrame.grid(column=1,row=0,sticky=TK.N)
     root.mainloop()
 def gui1():
     global c,root
